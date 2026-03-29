@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.github.com)",
+      "Bash(mkdir -p eval-0-repo/with_skill/run-1 eval-0-repo/without_skill/run-1 eval-1-pr/with_skill/run-1 eval-1-pr/without_skill/run-1 eval-2-issue/with_skill/run-1 eval-2-issue/without_skill/run-1)",
+      "Bash(mv eval-0-repo/with_skill/grading.json eval-0-repo/with_skill/run-1/)",
+      "Bash(mv eval-0-repo/without_skill/grading.json eval-0-repo/without_skill/run-1/)",
+      "Bash(mv eval-1-pr/with_skill/grading.json eval-1-pr/with_skill/run-1/)",
+      "Bash(mv eval-1-pr/without_skill/grading.json eval-1-pr/without_skill/run-1/)",
+      "Bash(BASE=\"/mnt/c/Users/LMS/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/61991212-5d5b-41b7-a0b3-eba1892be29c/cb996db3-8dd7-4d29-9363-e0b47b88367e/skills/github-explainer-workspace/iteration-1\")",
+      "Read(//c/Users/LMS/Desktop/code/claudecode/**)",
+      "Bash(python3 -c \"import os; print\\(os.path.exists\\(r''C:\\\\Users\\\\LMS\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\61991212-5d5b-41b7-a0b3-eba1892be29c\\\\cb996db3-8dd7-4d29-9363-e0b47b88367e\\\\skills\\\\github-explainer-workspace\\\\iteration-1''\\)\\)\")",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Bash(where py:*)",
+      "Bash(python -c \":*)",
+      "Bash(python -m scripts.aggregate_benchmark \"..\\\\github-explainer-workspace\\\\iteration-1\" --skill-name github-explainer)",
+      "Bash(SKILL_BASE=\"C:\\\\Users\\\\LMS\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\61991212-5d5b-41b7-a0b3-eba1892be29c\\\\cb996db3-8dd7-4d29-9363-e0b47b88367e\\\\skills\")",
+      "Read(//c/Users/LMS/Desktop/code/claudecode/$SKILL_BASE/**)",
+      "Bash(python -m scripts.aggregate_benchmark \"$SKILL_BASE\\\\github-explainer-workspace\\\\iteration-1\" --skill-name github-explainer)",
+      "Bash(python -c \"import os; p=r''C:\\\\Users\\\\LMS\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\61991212-5d5b-41b7-a0b3-eba1892be29c\\\\cb996db3-8dd7-4d29-9363-e0b47b88367e\\\\skills\\\\github-explainer-workspace\\\\iteration-1''; print\\(os.path.exists\\(p\\)\\); print\\(os.listdir\\(p\\) if os.path.exists\\(p\\) else ''MISSING''\\)\")",
+      "Bash(python \"C:\\\\Users\\\\LMS\\\\Desktop\\\\code\\\\claudecode\\\\create_workspace.py\")",
+      "Bash(python -X utf8 -m scripts.aggregate_benchmark \"C:\\\\Users\\\\LMS\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\61991212-5d5b-41b7-a0b3-eba1892be29c\\\\cb996db3-8dd7-4d29-9363-e0b47b88367e\\\\skills\\\\github-explainer-workspace\\\\iteration-1\" --skill-name github-explainer)",
+      "Bash(python -X utf8 eval-viewer/generate_review.py \"C:\\\\Users\\\\LMS\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\61991212-5d5b-41b7-a0b3-eba1892be29c\\\\cb996db3-8dd7-4d29-9363-e0b47b88637e\\\\skills\\\\github-explainer-workspace\\\\iteration-1\" --skill-name \"github-explainer\" --benchmark \"C:\\\\Users\\\\LMS\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\61991212-5d5b-41b7-a0b3-eba1892be29c\\\\cb996db3-8dd7-4d29-9363-e0b47b88637e\\\\skills\\\\github-explainer-workspace\\\\iteration-1\\\\benchmark.json\" --static \"C:\\\\Users\\\\LMS\\\\Desktop\\\\github-explainer-review.html\")",
+      "Bash(BASE=\"C:\\\\Users\\\\LMS\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\61991212-5d5b-41b7-a0b3-eba1892be29c\\\\cb996db3-8dd7-4d29-9363-e0b47b88367e\\\\skills\")",
+      "Read(//c/Users/LMS/Desktop/code/claudecode/$BASE/**)",
+      "Bash(python -X utf8 eval-viewer/generate_review.py \"$BASE\\\\github-explainer-workspace\\\\iteration-1\" --skill-name \"github-explainer\" --benchmark \"$BASE\\\\github-explainer-workspace\\\\iteration-1\\\\benchmark.json\" --static \"C:\\\\Users\\\\LMS\\\\Desktop\\\\github-explainer-review.html\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\LMS\\\\Desktop\\\\github-explainer-review.html\")",
+      "Bash(python \"C:\\\\Users\\\\LMS\\\\Desktop\\\\code\\\\claudecode\\\\update_skill.py\")",
+      "Bash(python -X utf8 -m scripts.package_skill \"C:\\\\Users\\\\LMS\\\\Desktop\\\\code\\\\claudecode\\\\github-explainer\")"
+    ]
+  }
+}
