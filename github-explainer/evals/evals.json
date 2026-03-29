@@ -1,0 +1,23 @@
+{
+  "skill_name": "github-explainer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "이 GitHub 링크 설명해줘: https://github.com/snarktank/ralph?tab=readme-ov-file",
+      "expected_output": "레포지토리의 목적, 주요 기능, 기술 스택, 구조, 스타/포크 수 등을 포함한 한국어 설명",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "이 PR 뭔 내용이야? https://github.com/microsoft/vscode/pull/200000",
+      "expected_output": "PR 제목, 상태, 변경 내용 요약, 변경 파일 목록을 포함한 한국어 설명",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "https://github.com/anthropics/claude-code/issues/1 이 이슈 봐줘",
+      "expected_output": "이슈 제목, 상태, 내용 요약, 레이블 등을 포함한 한국어 설명",
+      "files": []
+    }
+  ]
+}
